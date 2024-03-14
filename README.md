@@ -1,4 +1,4 @@
-# MVCAspNetApp
+# Creating a ASP.NET MVC application to deploy to Azure App Service
 
 This is an ASP.NET MVC application that uses Entity Framework Core for data access.
 

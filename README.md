@@ -4,7 +4,7 @@ This is an ASP.NET MVC application that uses Entity Framework Core for data acce
 
 ## Project Setup
 
-Here are the steps to create the project and install dependencies:
+Here are the steps to create the project and install dependencies (using either GitHub Codespace or VS Code):
 
 1. **Create the ASP.NET MVC project**
     Create a new ASP.NET MVC project named `MVCAspNetApp` [Replace this with your preferred name] using the .NET CLI with the following command:

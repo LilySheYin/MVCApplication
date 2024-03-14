@@ -58,7 +58,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 }
 ```
 
-To get the connection string, you must have completed the deployment as described in https://github.com/hackathon-white-camel-26/deployAzureResources. Once you have executed the workflow, the SQL Server and Database will be available in yout Azure portal (https://portal.azure.com/).
+To get the connection string, you must have completed the deployment as described in https://github.com/hackathon-white-camel-26/deployAzureResources. Once you have executed the workflow, the SQL Server and Database will be available in the Azure portal (https://portal.azure.com/).
 
 Navigate to the resource group that was created and select the SQL database
 
@@ -129,11 +129,11 @@ using MVCAspNetApp.Models;
 using Microsoft.EntityFrameworkCore;
 ```
 
-Save the file into the Data folder as ApplicationDBContext.cs
+Save the file into the Data folder as ApplicationDbContext.cs
 
 ![applicationdbcontext-data](./images/applicationdbcontext-data.jpg)
 
-12. **Update the Program.cs file** Update the Program.cs file to use the connection string from the appsettings.json file and the ApplicationDBContext class.
+12. **Update the Program.cs file** Update the Program.cs file to use the connection string from the appsettings.json file and the ApplicationDbContext class.
 
 At top of the class (first line) add the reference to the Data i.e. using YourNamespace.Data;
 

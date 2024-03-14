@@ -250,12 +250,34 @@ When this is completed then the folder structure should look as shown below. The
 ![controller-views](./images/controller-views.jpg)
 
 
-13. **Update the HomeController** Update the `HomeController` in the Controllers folder to handle HTTP requests and responses.
+17. **Build the project** 
+Using the standard command, build the project using dotnet build
 
-10. **Update the Views** Update the views in the Views folder to display data to the user.
+```bash
+dotnet build
+```
+
+17. **Run the project** 
+Using the standard command, execute the project using dotnet run
+
+```bash
+dotnet run
+```
+
+The Home page will be the standard one but you can check each part of the model by appending '/Users', '/Quizzes', etc,  to the end of the URL 
+
+![simple-initial-test](./images/simple-initial-test.jpg)
+
+You can create, edit and delete records here but follow the next steps to build out the site.
+
+18. **Update the _Layout** Update the `_Layout.cshtml_` in the Views/Shared folder display the tabs for each model.
+
+![updated-layout](./images/updated-layout.jpg)
 
 
+19. **Enhance the project** Use GitHub Copilot to help add any additional styling or functionality to build out the site.
 
+20 **Deploy to Azure App Service** Instructions to follow on how to deploy this. 
 
 ## Troubleshooting Firewall Rule
 If you encounter an error like "Cannot open server 'evketek6-sql' requested by the login. Client with IP address '51.140.125.85' is not allowed to access the server", you need to create a firewall rule in the Azure portal to allow your IP address to access the server.
